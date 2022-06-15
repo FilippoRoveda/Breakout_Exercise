@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Breakout2022.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{40145C8B-E9CD-4209-8538-E54C9032DF4A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Breakout2022.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Breakout2022Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{ADAB1B46-D1D0-4219-9841-B7BB9513E6B2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Breakout2022">
+      <UniqueIdentifier>{5C572F28-470C-48B2-B739-C832DCCD7A6C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Breakout2022\Breakout2022.Build.cs">
+      <Filter>Source\Breakout2022</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Breakout2022\Breakout2022.cpp">
+      <Filter>Source\Breakout2022</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Breakout2022\Breakout2022.h">
+      <Filter>Source\Breakout2022</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Breakout2022\Breakout2022GameModeBase.cpp">
+      <Filter>Source\Breakout2022</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Breakout2022\Breakout2022GameModeBase.h">
+      <Filter>Source\Breakout2022</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
